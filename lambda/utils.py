@@ -11,7 +11,7 @@ def find_string(c, start_str, end_str):
     posf = c[pos:].find(end_str)
     return c[pos:pos + posf]
 
-EMAIL = ""
+EMAIL = "FILL ME"
 PASSWORD = ""
 
 
