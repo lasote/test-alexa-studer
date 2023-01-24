@@ -1,0 +1,71 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mis paneles",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "batterylevel",
+          "slots": [],
+          "samples": [
+            "porcentaje de carga de baterías",
+            "carga de baterías",
+            "baterias",
+            "BATERÍAS"
+          ]
+        },
+        {
+          "name": "consumption",
+          "slots": [],
+          "samples": [
+            "consumo"
+          ]
+        },
+        {
+          "name": "production",
+          "slots": [],
+          "samples": [
+            "producción"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Studer"
+              }
+            },
+            {
+              "name": {
+                "value": "SolarEdge"
+              }
+            }
+          ],
+          "name": "ProviderType"
+        }
+      ]
+    }
+  },
+  "version": "12"
+}
